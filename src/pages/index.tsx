@@ -1,6 +1,7 @@
-import Analytics from "../components/Analytics";
-import Hero from "../components/Hero";
-import Navbar from "../components/Navbar";
+import Analytics from "../componentsTailwind/Analytics";
+import Hero from "../componentsTailwind/Hero";
+import Navbar from "../componentsTailwind/Navbar";
+import NewsLetter from "../componentsTailwind/newsLetter";
 
 export default function Home() {
   return (
@@ -8,6 +9,7 @@ export default function Home() {
       <Navbar />
       <Hero />
       <Analytics />
+      <NewsLetter />
     </div>
   )
 }

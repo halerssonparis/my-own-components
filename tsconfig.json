@@ -22,7 +22,7 @@
     "next-env.d.ts",
     "**/*.ts",
     "**/*.tsx"
-  ],
+, "src/pages/showcases.jsx", "src/pages/showcases"  ],
   "exclude": [
     "node_modules"
   ]
