@@ -1,0 +1,27 @@
+.container {
+  height: 100vh;
+  max-width: 1280px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.row {
+  display: grid;
+  grid-template-columns: repeat(var(--board-size), 1fr);
+}
+
+.column {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  width: 100px;
+  height: 100px;
+}
